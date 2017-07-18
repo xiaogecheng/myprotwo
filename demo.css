@@ -1,0 +1,25 @@
+html,body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 400px;
+    background-color: #fff;
+}
+a{
+    display: block;
+    position: relative;
+}
+a>.img>img{
+    width: 100px;
+    height: 100px;
+}
+a>.text{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    padding-left: 120px;
+    background-color: transparent;
+}
